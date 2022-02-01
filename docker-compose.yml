@@ -85,7 +85,7 @@ services:
     container_name: arachniscanner
 
   openvas:
-    image: avhost/docker-openvas
+    image: mikesplain/openvas
     ports:
       - "443:443"
       - "9390:9390"
